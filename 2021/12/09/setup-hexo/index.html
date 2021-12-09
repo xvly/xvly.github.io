@@ -6,13 +6,15 @@
   
   <title>setup-hexo | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="article">
+  <meta name="description" content="title: setup-hexodate: 2021-12-08 01:49:06tags:  github 部署安装工具nodejs git 准备 git 仓库安装 hexo安装 hexonpm install hexo-deployer-git –save 搭建：hexo init [name]exsample:hexo init blog 编辑 _config.yml12345Deplo">
+<meta property="og:type" content="article">
 <meta property="og:title" content="setup-hexo">
 <meta property="og:url" content="http://example.com/2021/12/09/setup-hexo/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="title: setup-hexodate: 2021-12-08 01:49:06tags:  github 部署安装工具nodejs git 准备 git 仓库安装 hexo安装 hexonpm install hexo-deployer-git –save 搭建：hexo init [name]exsample:hexo init blog 编辑 _config.yml12345Deplo">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-12-09T08:20:10.000Z">
-<meta property="article:modified_time" content="2021-12-09T08:20:10.647Z">
+<meta property="article:modified_time" content="2021-12-09T08:23:15.789Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -93,11 +95,26 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <hr>
+<p>title: setup-hexo<br>date: 2021-12-08 01:49:06<br>tags:</p>
+<hr>
+<h2 id="github-部署"><a href="#github-部署" class="headerlink" title="github 部署"></a>github 部署</h2><h3 id="安装工具"><a href="#安装工具" class="headerlink" title="安装工具"></a>安装工具</h3><p>nodejs</p>
+<p>git</p>
+<h3 id="准备-git-仓库"><a href="#准备-git-仓库" class="headerlink" title="准备 git 仓库"></a>准备 git 仓库</h3><h3 id="安装-hexo"><a href="#安装-hexo" class="headerlink" title="安装 hexo"></a>安装 hexo</h3><h4 id="安装-hexo-1"><a href="#安装-hexo-1" class="headerlink" title="安装 hexo"></a>安装 hexo</h4><p>npm install hexo-deployer-git –save</p>
+<h4 id="搭建："><a href="#搭建：" class="headerlink" title="搭建："></a>搭建：</h4><p>hexo init [name]<br>exsample:hexo init blog</p>
+<h4 id="编辑-config-yml"><a href="#编辑-config-yml" class="headerlink" title="编辑 _config.yml"></a>编辑 _config.yml</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Deployment</span><br><span class="line">    deploy:</span><br><span class="line">        type: &#x27;git&#x27;</span><br><span class="line">        repo: [git https] (https://github.com/xvly/yao.github.io)</span><br><span class="line">        branch: [branchName] (blog)</span><br></pre></td></tr></table></figure>
+
+<h4 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h4><p>hexo new [name]</p>
+<h4 id="更新或提交"><a href="#更新或提交" class="headerlink" title="更新或提交"></a>更新或提交</h4><p>hexo clean<br>hexo deploy<br>提交失败： npm install hexo-deployer-git –save<br>出现 </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Some issues need review, and may require choosing</span><br><span class="line">a different dependency.</span><br><span class="line"></span><br><span class="line">Run `npm audit` for details.</span><br></pre></td></tr></table></figure>
+
+<p>提交后需要等待一段时间，约几分钟，仓库能马上看到，但是 html 要等等</p>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/one-command-deployment">hexo</a></p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/12/09/setup-hexo/" data-id="ckwyoyzdd000158koe0ep77ny" data-title="setup-hexo" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/12/09/setup-hexo/" data-id="ckwyp1a5h000178ko4w112v9d" data-title="setup-hexo" class="article-share-link">Share</a>
       
       
       
