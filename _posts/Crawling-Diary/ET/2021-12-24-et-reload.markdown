@@ -1,0 +1,54 @@
+# 更新
+
+# 怎么使用
+
+1. F7 BuildData
+2. F8 BuildLogic
+3. ctrl + R refresh
+
+F5 ~ F8
+BuildCodeDebug
+BuildCodeRelease
+BuildData
+BuildLogic
+
+三种更新方式
+Mono
+ILRuntime
+Reload
+
+**Mono**: dll 更新
+**ILRuntime**: 热更新
+**Reload**: 热重载
+
+# mono
+
+# ilruntime
+
+
+# reload
+**BuildData**: 更新 Model/ModelView 层
+**BuildLogic**: 更新 Hotfix/HotfixView 层
+
+## 使用
+登录后执行BuildLogic 即可
+
+## 实现
+
+**流程**
+- BuildAssemblieEditor.BuildData
+- BuildAssemblieEditor.BuildLogic
+
+- BuildAssemblieEditor.BuildMuteAssembly( codeDirectorys, additionalReferences, codeOptimization )
+    - UnityEditor.Compliation.AssemblyBuilder
+
+- OperaComponentSystem
+    - CodeLoader.LoadLogic()
+    - EventSystem.Add(CodeLoader.GetTypes)
+    - EventSystem.Load()
+
+**CodeLoader**
+
+
+
+## 

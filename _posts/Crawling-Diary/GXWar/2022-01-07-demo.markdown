@@ -1,0 +1,13 @@
+# character
+
+# scene
+
+# main scene
+
+# battle mode
+- ~~GVE~~
+- PVP
+- GVP
+- IO
+
+- footman

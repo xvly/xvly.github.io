@@ -1,0 +1,118 @@
+# client
+init.scene
+- init.cs
+    - Awake
+        - CodeLoader.Instance.CodeMode
+    - Start
+        - **CodeLoader.Instance.Start**
+    - Update
+        - **CodeLoader.Instance.Update**
+    - LateUpdate
+        - **CodeLoader.Instance.LateUpdate**
+    - OnApplicationQuit
+        - **CodeLoader.Instance.OnApplicationQuit**
+- CodeLoader.cs
+    - Start
+        - Load code
+            - Mono
+            - ILRuntime
+            - Reload
+        - **Entry.Start**
+- Entry.cs
+    - Start
+        - life cycle
+            - CodeLoader.Instance.Update += Game.Update;
+            - CodeLoader.Instance.LateUpdate += Game.LateUpdate;
+            - CodeLoader.Instance.OnApplicationQuit += Game.Close;
+        - Game.EventSystem.Add(CodeLoader.Instance.GetTypes());
+        - Game.EventSystem.Publish(new **EventType.AppStart**()).Coroutine();
+- Game.cs
+- AppStart_Init.cs <EventType.AppStart>
+    - Run
+        - AddComponent
+            - Timer
+            - CoroutineLock
+            - Resources
+            - Config
+            - OpcodeType
+            - MessageDispatcher
+            - NetThread
+            - Session
+            - ZoneSceneManager
+            - Global
+            - AIDispatcher
+        - Load Config.unity3d
+        - Load unit.unity3d
+        - Scene zoneScene = await SceneFactory.CreateZoneScene(1, "Game", **Game.Scene**);
+        - Game.EventSystem.Publish(new **EventType.AppStartInitFinish**() { ZoneScene = zoneScene });
+- AppStartInitFinish_RemoveLoginUI <EventType.AppStartInitFinish>
+    - Run
+        - UIHelper.Create(args.ZoneScene, **UIType.UILogin**);
+- UILoginEvent <UILoginEvent>
+    - OnCreate
+        - Resource load uilogin assetbundle
+        - Resource Load Asset
+        - GameObject.Instantiate
+        - uiComponent.AddChild<UI, string, GameObject>(UIType.UILogin, gameObject);
+        - Add **UILoginComponent**
+    - OnRemove
+- UILoginComponent
+- UILoginComponentAwakeSystem <UILoginComponent>
+    - Awake
+        - find LoginBtn
+            - onClick => **UILoginComponentSystem.OnLogin**
+        - find account
+        - find password
+- UILoginComponentSystem <UILoginComponent>
+    - OnLogin
+- LoginHelper
+    - Login
+        - get gateSession from Login Server
+            - session = NetKcpComponent.Create
+                - R2C_Login = session.Call C2R_Login            C = Client, R = Remote
+        - connect to gateSession
+            - add PingComponent
+            - add SessionComponent
+        - Game.EventSystem.Publish(new **EventType.LoginFinish**() {ZoneScene = zoneScene});
+- LoginFinish_CreateLobbyUI <EventType.LoginFinish>
+    - Run
+        - await UIHelper.Create(args.ZoneScene, **UIType.UILobby**);
+- UILobbyEvent
+    - OnCreate
+        - add UILobbyComponent
+    - OnRemove
+- UILobbyComponent
+- UILobbyComponentAwakeSystem
+    - Awake 
+        - find EnterMap button, add onClick **UILobbyComponentSystem.EnterMap**
+- UILobbyComponentSystem
+    - EnterMap
+        - EnterMapHelper.EnterMapAsync
+        - UIHelper.Remove(UILobby)
+
+- EnterMapHelper 
+    - EnterMapAsync
+        - C2G_EnterMap
+        - G2C_EnterMap
+        - PlayerComponent set MyId
+        - wait Wait_SceneChangeFinish event
+        - publish Event.EnterMapFinish ( mapId )
+
+- press T
+    - C2M_TransferMap
+
+- M2C_StartSceneChange
+    - SceneChangeHelper
+
+- SceneChangeHelper
+    - SceneChangeTo
+
+# server
+- C2G_EnterMap
+    - TransferHelper.Transfer
+
+- C2M_TransferMap
+    - TransferHelper
+        - Transfer
+            - M2C_StartSceneChange
+
