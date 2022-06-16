@@ -26,7 +26,7 @@
     - Res：美术原始资源
 
 ## 逻辑框架
-- ecs
+### ecs
     - 目录结构
         - Model: 数据层，客户端服务端共用
         - ModelView: 数据层，客户端
@@ -37,17 +37,49 @@
             - Unit
             - Scene
         - Component : 数据
-        - ComponentSystem: 函数
+        - ComponentSystem: 方法
             - System: 静态函数，外部调用，扩展 Component
             - ObjectSystem: 局部函数，需添加 [ObjectSystem] 属性
                 - AwakeSystem
                 - UpdateSystem
             - ...
-- Attribute
-    - ObjectSystem
+### Attribute
+    - ObjectSystem: 通过 ObjectSystem 绑定 AwakeSystem, UpdateSystem...
     - UIEvent
-- helper
+### helper
 
+### Entity
+    - Game
+    - Scene
+    - Entity
+
+### config
+- ConfigComponent
+- AppStart_init 通过 ResourceComponent 加载 config.unity3d 
+
+## 资源管理
+- 目录
+    - Res：原始资源
+    - Bundle：运行时资源，会被设置上 assetBundleName，打包时会被生成 assetBundle
+    - Resources：跟包原始资源
+    - StreamingAssets：跟包原始 AssetBundle
+- 资源加载流程
+    - ResourcesComponent（ps: 这个不是应该只包含数据，不包含方法吗...甚至还有 Instance 实例）
+        - 游戏启动，由 AppStart_init 添加 ResourceComponent 到 Scene
+        - LoadAssetBunlde
+        - Load...
+    - 场景
+        - ResourceComponent.LoadBundleAsync(map1.unity3d)
+        - Game.Scene.AddComponent<SceneChangeComponent>().ChangeSceneAsync
+        - SceneManager.LoadSceneAsync
+    - 角色
+    - ui
+    - 特效
+    - shader
+    - rt
+    - 后处理
+    - 脚本
+    - ...
 ## 模块实现
 ### 初始化流程
 ### Scene

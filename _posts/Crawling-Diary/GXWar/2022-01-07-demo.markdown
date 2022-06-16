@@ -2,7 +2,11 @@
 
 # scene
 
-# main scene
+## main scene
+- 
+
+## battle scene
+
 
 # battle mode
 - ~~GVE~~

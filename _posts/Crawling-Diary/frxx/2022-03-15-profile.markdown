@@ -1,0 +1,77 @@
+# 内存
+## 当前指标
+pss
+uss
+
+texture
+shader
+mesh
+animationClip
+
+## 优化项目
+- animationClip
+    - 精度优化
+    - humanoid 比 generic 小
+    - 使用 keyframe reduction 
+    - 去除 scale 曲线
+    - 帧率 30
+    - 控制时长
+    - optional 2,2,2
+    - animator 会加载所有动画
+    - 复用
+- 缓存资源
+- 模型
+    - 贴图大小
+    - 顶点属性
+    - 面数
+    - 合并通道图
+    - 关闭 rw
+- 贴图格式
+    - astc:
+        - https://zhuanlan.zhihu.com/p/158740249
+        - 默认使用 8x8，精度要求高的使用 6x6,4x4
+        - 结论：无Alpha通道的贴图建议压缩格式为ASTC 8x8。如果贴图为法线贴图，建议压缩格式为ASTC 5x5。有更高要求的贴图（比如面部、场景地面），可以设置压缩格式为ASTC 6x6，法线贴图为ASTC 4x4。
+- 内存泄漏
+- 其他
+    - 字体简化
+- rendertexture
+- 音频
+    - 通道
+    - 码率
+    - streaming
+    - 按需加载
+- 脚本
+    - 频繁分配
+    - 大块内存申请
+    - gc
+    - rayCastNoAlloc 替代 raycast
+    - 少用 lamba，带 upvalue 会产生 124B gc
+- shader
+    - 变体
+        - nodynlightmap, nofog, noambient, nolppv 等关闭内置变种
+        - 禁止 standard shader
+        - #param skip_varaints 去掉不需要的变种
+        - 合并变种 #param multi_complie A B C
+    - 去掉 fallback
+- 资源规范
+    - 面数
+        - 角色
+        - ui
+        - 例子
+        - 总体
+        - 场景
+        - 角色
+    - 内存 pss
+    - cpu 耗时
+        - 总体
+        - 后处理
+        - 动画
+        - 渲染
+        - ui
+        - 逻辑
+
+## 沙盘优化
+
+- uploadtexture        
+- uploadTextureData
+- QualitySetting Async upload

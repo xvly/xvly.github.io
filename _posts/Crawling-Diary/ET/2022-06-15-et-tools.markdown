@@ -1,0 +1,17 @@
+# tools
+## export excel
+源：
+Excel
+
+目标：
+代码 
+Unity/Assets/Codes/Model/Generate/Config/*.cs
+Server/Model/Generate/Config/*.cs
+资源
+Unity/Assets/Bundle/Config/*.bytes
+
+命令：
+Excel/win_startExcelExport.bat
+Bin/dotnet Tools.dll --AppType=ExcelExporter
+
+## export proto
