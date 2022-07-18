@@ -1,0 +1,10 @@
+# 拒绝访问
+用管理员身份启动 rider
+
+# 监听提示失败
+监听地址： localhost:8080
+添加监听：命令行：netsh http add urlacl url=http://*:8080/ user=Everyone
+
+# 监听成功，但浏览器访问没有反应
+修改监听地址未 http://*:8080/ 后，访问 http://localhost:8080 成功监听到。
+
