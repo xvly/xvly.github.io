@@ -27,7 +27,10 @@ Asset Pack 因具有较高的大小上限而成为大型游戏的理想之选：
 一个 Android App Bundle 中的所有 Asset Pack 的总下载大小上限为 2 GB。
 一个 Android App Bundle 中最多可以使用 50 个资源包。
 
-QA:
+## 本地测试，命令行安装
+
+
+## QA:
  
 Q: Unable to initialize unity engine, log: globalmanager
 environment: unity 2019.4.37
