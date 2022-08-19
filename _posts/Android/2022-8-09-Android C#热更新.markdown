@@ -40,7 +40,7 @@ if (string.IsNullOrEmpty(apkPath))
 }
 ```
 
-## faq
+## FAQ
 
 - 执行 bootstrap.use_data_dir 时报 can't store path, no such file or directory
 

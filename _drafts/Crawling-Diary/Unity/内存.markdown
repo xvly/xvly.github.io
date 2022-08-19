@@ -1,0 +1,156 @@
+
+# 资源
+
+## 贴图
+格式：PVRTC, ETC2, ASTC
+
+
+**Upload Buffer：**
+和声音的DSP Buffer很像，设置填充满多大之后再推向CPU/GPU。
+
+**Read/Write**
+不使用就关闭它。
+
+Texture 没必要就不要开 read and write。正常 Texture 读进内存，解析完了，放到 upload buffer 里后，内存里的就会 delete 掉。
+但如果检测到你开了 r/w 就不会 delete 了，就会在显存和内存中各一份。
+
+**Mip Map**
+像UI这些不需要的就关闭它，可以省大量内存。
+
+
+## AssetBundle
+格式：Lz4
+4.5kb 头
+**压缩方式：使用Lz4，而不是Lzma**
+Lz4 (https://docs.unity3d.com/Documentation/ScriptReference/BuildCompression.LZ4.html)
+LZ4HC “Chunk Based” Compression. 非常快
+和 Lzma 相比，平均压缩比率差 30%。也就是说会导致包体大一点，但是（作者说）速度能快 10 倍以上。
+Lzma (https://docs.unity3d.com/2019.3/Documentation/ScriptReference/BuildCompression.LZMA.html)
+Lzma 基本上就不要用了，因为解压和读取速度上都会比较慢。
+还会占大量内存
+因为是 Steam based 而不是 Chunk Based 的，因此需要一次全解压
+Chunk Based 可以一块一块解压
+如果发现一个文件在第 5-10 块，那么 LZ4 会依次将 第 5 6 7 8 9 10 块分别解压出来，每次（chunk 的）解压会重用之前的内存，来减少内存的峰值。
+中国版 Unity 中有基于 LZ4 的Addressables（ AssetBundle） 加密，只支持 LZ4。https://mp.weixin.qq.com/s/s9lQyunpRPJZnnaLSb9qOQ
+
+
+**TypeTree**
+Unity 的每一种类型都有很多数据结构的改变，为了对此做兼容，Unity 会在生成数据类型序列化的时候，顺便会生成 TypeTree：当前我这一个版本里用到了哪些变量，对应的数据类型是什么。在反序列化的时候，会根据 TypeTree 来进行反序列化。
+如果上一个版本的类型在这个版本中没有，TypeTree 就没有它，因此不会碰到它。
+如果要用一个新的类型，但在这个版本中不存在，会用一个默认值来序列化，从而保证了不会在不同的版本序列化中出错，这个就是 TypeTree 的作用。
+Build AssetBundle 中有开关可以关掉 TypeTree。当你确认当前 AssetBundle 的使用和 Build Unity 的版本一模一样，这时候可以把 TypeTree 关掉。
+例如如果用同样的 Unity 打出来的 AssetBundle 和 APP，TypeTree 则完全可以关掉。
+TypeTree 好处：
+内存减少。TypeTree 本身是数据，也要占内存。
+包大小会减少，因为 TypeTree 会序列化到 AssetBundle 包中，以便读取。
+Build 和运行时会变快。源代码中可以看到，因为每一次 Serialize 东西的时候，如果发现需要 Serialize TypeTree，则会 Serialize 两次：
+第一次先把 TypeTree Serialize 出来
+第二次把实际的东西 Serialize 出来
+反序列化也会做同样的事情，1. TypeTree 反序列化，2. 实际的东西反序列化。
+当你确定你当前的AssetBundle和你的Unity是同一个版本的时候，就可以关掉TypeTree。关掉TypeTree之后可以减少内存大小、包大小、加快运行速度。
+
+**Resources文件夹**
+不要使用，除非在 debug 的时候
+
+Resource 和 AssetBundle 一样，也有头来索引。Resource 在打进包的时候会做一个红黑树，来帮助 Resource 来检索资源在什么位置，
+如果 Resource 非常大，那么红黑树也会非常大。
+红黑树是不可卸载的。在刚开始游戏的时候就会加载进内存中，会持续对游戏造成内存压力。
+会极大拖慢游戏的启动时间。因为红黑树没加载完，游戏不能启动。
+
+**Size & Count**
+AssetBundle 包打多大是很玄学的问题，但每一个 Asset 打一个 Bundle 这样不太好。
+有一种减图片大小的方式，把 png 的头都剔除出来。因为头的色板是通用的，而数据不通用。AssetBundle 也一样，一部分是它的头，一部分是实际打包的部分。因此如果每个 Asset 都打 Bundle 会导致 AssetBundle 的头比数据还要大。
+官方的建议是每个 AssetBundle 包大概 1M~2M 左右大小，考虑的是网络带宽。但现在 5G 的时候，可以考虑适当把包体加大。还是要看实际用户的情况。
+
+**合并通道图** 
+【张数】去掉重复的贴图，合并通道减少贴图张数
+
+
+## 动作 animation
+
+Generic可以通过压缩浮点精度/去除scale曲线/keyframe reduction等方式进行压缩
+
+Humanoid动画比generic动画要小
+
+压缩（Optimal 默认 2 2 2）
+
+Animator Controller会加载所有动画，需要优化
+
+## 模型
+
+**Read/Write** 
+同上Texture
+
+**Compression** 
+虽然写的是压缩，但实际效果并不一定有用，有些版本 Compression 开了不如不开，内存占用可能更严重，具体需要自己试。
+
+**lod** 
+Mesh Lod可以有效降低面数和内存
+
+**顶点属性** 
+去掉不用的顶点属性（uv, colors等等）
+
+ 控制网格顶点和三角形数量
+
+
+### 场景模型
+
+### 角色模型
+
+### 特效模型
+
+
+## UI
+
+**字体**
+中文字体裁剪（FontCreator + FontSubsetPack） 12M → 3M
+
+## 特效
+
+## 场景
+
+## Shader
+
+**变体**
+1. 合并变体：#pragma multi_compile A B C
+2. #pragma skip_variants
+3. 禁掉 Stanard shader
+
+**IPreProcessShader**
+
+## 脚本
+
+- VM内存池
+Mono虚拟机的内存池，实际上VM是会返回给操作系统。
+
+- 返还条件是什么？
+GC 不会把内存直接返还给系统
+内存也是以 Block 来管理的。当一个 Block 连续六次 GC 没有被访问到，这块内存才会被返还到系统。（mono runtime 基本看不到，IL2cpp runtime 可能会看到多一点）
+不会频繁地分配内存，而是一次分配一大块。
+
+- 控制高频的内存分配
+
+- 控制大块的内存申请
+
+- 控制容易导致gc alloc的函数调用
+
+- Log 优化，添加 Enable 判断
+
+- 无 GC api, RaycastNoAlloc， protobuf no alloc
+
+- 少用 lamba，带 upvalue 的 lamba 会有 124B 的 GC
+
+**GC机制**
+Unity的GC机制是Boehm内存回收，是不分代的，非压缩式的。（之所以是使用Boehm是因为Unity和Mono的一些历史原因，以及目前Unity主要精力放在IL2CPP上面）
+
+- 闭包和匿名函数：减少使用。所有的闭包和匿名函数最后都会变成一个Class。
+- 协程：只要不被释放，里面所有引用的所有内存都会存在。（用的时候生产一个，不用的时候扔掉）
+- 使用内存池：VM 本身有内存池，但建议开发者对高频使用的小部件，自己建一个内存池。例如UI、粒子系统、子弹等。
+- 多使用Struct。
+- 用Destory而不是NULL 。
+- 配置表：减少一次性使用的配置表数量；不要把整个配置表都扔进去，是否能切分下配置表。
+
+### lua
+### C#
+
+## 预算管理

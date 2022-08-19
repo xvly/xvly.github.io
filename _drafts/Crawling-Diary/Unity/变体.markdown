@@ -1,0 +1,10 @@
+# 
+shader_feature
+multi_compile
+
+##
+multi_compile: 
+- 全部编译，不根据实际使用编译
+
+shader_feature:
+- 按使用编译，可以使用 shaderVaranit 收集
