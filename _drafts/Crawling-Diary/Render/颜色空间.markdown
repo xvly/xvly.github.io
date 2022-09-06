@@ -1,0 +1,16 @@
+
+
+https://answer.uwa4d.com/question/5bd1724fae74300ab0497bed
+
+# 
+
+- 线性
+
+- 伽马
+
+# unity player setting
+
+- linear space
+- sRGB: 在线性空间下，对于贴图的设置，不是线形图不勾选sRGB，而是如果贴图是数据而不是颜色，就不要勾选sRGB。
+
+# 
