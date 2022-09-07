@@ -2,13 +2,28 @@
 
 https://answer.uwa4d.com/question/5bd1724fae74300ab0497bed
 
+https://zhuanlan.zhihu.com/p/66558476
+
 # 
 
-- 线性
+颜色空间(Color space)
 
-- 伽马
+- 线性(Linear)
+- 伽马(Gamma)
+    - 显示器：Gamma 2.2
+    - 中间：Gamma 0.45
+    - 结果：Gamma 1.0
 
-# unity player setting
+- sRGB：Gamma 0.45
+- 伽马矫正
+
+# 
+显示器显示原理
+
+电压和亮度的关系
+
+# unity
+## player setting
 
 - linear space
 - sRGB: 在线性空间下，对于贴图的设置，不是线形图不勾选sRGB，而是如果贴图是数据而不是颜色，就不要勾选sRGB。
