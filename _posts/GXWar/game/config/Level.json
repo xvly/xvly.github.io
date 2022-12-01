@@ -1,0 +1,1802 @@
+{
+  "1": {
+    "atk": 150,
+    "hpmax": 600,
+    "goldCost": 100,
+    "scrollCost": 1
+  },
+  "2": {
+    "atk": 155,
+    "hpmax": 620,
+    "goldCost": 110,
+    "scrollCost": 1
+  },
+  "3": {
+    "atk": 160,
+    "hpmax": 640,
+    "goldCost": 125,
+    "scrollCost": 1
+  },
+  "4": {
+    "atk": 165,
+    "hpmax": 660,
+    "goldCost": 145,
+    "scrollCost": 1
+  },
+  "5": {
+    "atk": 170,
+    "hpmax": 680,
+    "goldCost": 170,
+    "scrollCost": 1
+  },
+  "6": {
+    "atk": 175,
+    "hpmax": 700,
+    "goldCost": 200,
+    "scrollCost": 2
+  },
+  "7": {
+    "atk": 180,
+    "hpmax": 720,
+    "goldCost": 235,
+    "scrollCost": 2
+  },
+  "8": {
+    "atk": 185,
+    "hpmax": 740,
+    "goldCost": 275,
+    "scrollCost": 2
+  },
+  "9": {
+    "atk": 190,
+    "hpmax": 760,
+    "goldCost": 320,
+    "scrollCost": 2
+  },
+  "10": {
+    "atk": 195,
+    "hpmax": 780,
+    "goldCost": 370,
+    "scrollCost": 2
+  },
+  "11": {
+    "atk": 200,
+    "hpmax": 800,
+    "goldCost": 425,
+    "scrollCost": 3
+  },
+  "12": {
+    "atk": 205,
+    "hpmax": 820,
+    "goldCost": 485,
+    "scrollCost": 3
+  },
+  "13": {
+    "atk": 210,
+    "hpmax": 840,
+    "goldCost": 550,
+    "scrollCost": 3
+  },
+  "14": {
+    "atk": 215,
+    "hpmax": 860,
+    "goldCost": 620,
+    "scrollCost": 3
+  },
+  "15": {
+    "atk": 220,
+    "hpmax": 880,
+    "goldCost": 695,
+    "scrollCost": 3
+  },
+  "16": {
+    "atk": 225,
+    "hpmax": 900,
+    "goldCost": 775,
+    "scrollCost": 4
+  },
+  "17": {
+    "atk": 230,
+    "hpmax": 920,
+    "goldCost": 860,
+    "scrollCost": 4
+  },
+  "18": {
+    "atk": 235,
+    "hpmax": 940,
+    "goldCost": 950,
+    "scrollCost": 4
+  },
+  "19": {
+    "atk": 240,
+    "hpmax": 960,
+    "goldCost": 1045,
+    "scrollCost": 4
+  },
+  "20": {
+    "atk": 250,
+    "hpmax": 1000,
+    "goldCost": 1145,
+    "scrollCost": 4
+  },
+  "21": {
+    "atk": 255,
+    "hpmax": 1020,
+    "goldCost": 1250,
+    "scrollCost": 5
+  },
+  "22": {
+    "atk": 260,
+    "hpmax": 1040,
+    "goldCost": 1360,
+    "scrollCost": 5
+  },
+  "23": {
+    "atk": 265,
+    "hpmax": 1060,
+    "goldCost": 1475,
+    "scrollCost": 5
+  },
+  "24": {
+    "atk": 270,
+    "hpmax": 1080,
+    "goldCost": 1595,
+    "scrollCost": 5
+  },
+  "25": {
+    "atk": 275,
+    "hpmax": 1100,
+    "goldCost": 1720,
+    "scrollCost": 5
+  },
+  "26": {
+    "atk": 280,
+    "hpmax": 1120,
+    "goldCost": 1850,
+    "scrollCost": 8
+  },
+  "27": {
+    "atk": 285,
+    "hpmax": 1140,
+    "goldCost": 1985,
+    "scrollCost": 8
+  },
+  "28": {
+    "atk": 290,
+    "hpmax": 1160,
+    "goldCost": 2125,
+    "scrollCost": 8
+  },
+  "29": {
+    "atk": 295,
+    "hpmax": 1180,
+    "goldCost": 2270,
+    "scrollCost": 8
+  },
+  "30": {
+    "atk": 300,
+    "hpmax": 1200,
+    "goldCost": 2420,
+    "scrollCost": 8
+  },
+  "31": {
+    "atk": 305,
+    "hpmax": 1220,
+    "goldCost": 2575,
+    "scrollCost": 8
+  },
+  "32": {
+    "atk": 310,
+    "hpmax": 1240,
+    "goldCost": 2735,
+    "scrollCost": 8
+  },
+  "33": {
+    "atk": 315,
+    "hpmax": 1260,
+    "goldCost": 2900,
+    "scrollCost": 8
+  },
+  "34": {
+    "atk": 320,
+    "hpmax": 1280,
+    "goldCost": 3070,
+    "scrollCost": 8
+  },
+  "35": {
+    "atk": 325,
+    "hpmax": 1300,
+    "goldCost": 3245,
+    "scrollCost": 8
+  },
+  "36": {
+    "atk": 330,
+    "hpmax": 1320,
+    "goldCost": 3425,
+    "scrollCost": 10
+  },
+  "37": {
+    "atk": 335,
+    "hpmax": 1340,
+    "goldCost": 3610,
+    "scrollCost": 10
+  },
+  "38": {
+    "atk": 340,
+    "hpmax": 1360,
+    "goldCost": 3800,
+    "scrollCost": 10
+  },
+  "39": {
+    "atk": 345,
+    "hpmax": 1380,
+    "goldCost": 3995,
+    "scrollCost": 10
+  },
+  "40": {
+    "atk": 350,
+    "hpmax": 1400,
+    "goldCost": 4195,
+    "scrollCost": 10
+  },
+  "41": {
+    "atk": 355,
+    "hpmax": 1420,
+    "goldCost": 4400,
+    "scrollCost": 15
+  },
+  "42": {
+    "atk": 360,
+    "hpmax": 1440,
+    "goldCost": 4600,
+    "scrollCost": 15
+  },
+  "43": {
+    "atk": 365,
+    "hpmax": 1460,
+    "goldCost": 4800,
+    "scrollCost": 15
+  },
+  "44": {
+    "atk": 370,
+    "hpmax": 1480,
+    "goldCost": 5000,
+    "scrollCost": 15
+  },
+  "45": {
+    "atk": 375,
+    "hpmax": 1500,
+    "goldCost": 5200,
+    "scrollCost": 15
+  },
+  "46": {
+    "atk": 380,
+    "hpmax": 1520,
+    "goldCost": 5400,
+    "scrollCost": 15
+  },
+  "47": {
+    "atk": 385,
+    "hpmax": 1540,
+    "goldCost": 5600,
+    "scrollCost": 15
+  },
+  "48": {
+    "atk": 390,
+    "hpmax": 1560,
+    "goldCost": 5800,
+    "scrollCost": 15
+  },
+  "49": {
+    "atk": 395,
+    "hpmax": 1580,
+    "goldCost": 6000,
+    "scrollCost": 15
+  },
+  "50": {
+    "atk": 400,
+    "hpmax": 1600,
+    "goldCost": 6200,
+    "scrollCost": 15
+  },
+  "51": {
+    "atk": 405,
+    "hpmax": 1620,
+    "goldCost": 6400,
+    "scrollCost": 20
+  },
+  "52": {
+    "atk": 410,
+    "hpmax": 1640,
+    "goldCost": 6600,
+    "scrollCost": 20
+  },
+  "53": {
+    "atk": 415,
+    "hpmax": 1660,
+    "goldCost": 6800,
+    "scrollCost": 20
+  },
+  "54": {
+    "atk": 420,
+    "hpmax": 1680,
+    "goldCost": 7000,
+    "scrollCost": 20
+  },
+  "55": {
+    "atk": 425,
+    "hpmax": 1700,
+    "goldCost": 7200,
+    "scrollCost": 20
+  },
+  "56": {
+    "atk": 430,
+    "hpmax": 1720,
+    "goldCost": 7400,
+    "scrollCost": 20
+  },
+  "57": {
+    "atk": 435,
+    "hpmax": 1740,
+    "goldCost": 7600,
+    "scrollCost": 20
+  },
+  "58": {
+    "atk": 440,
+    "hpmax": 1760,
+    "goldCost": 7800,
+    "scrollCost": 20
+  },
+  "59": {
+    "atk": 445,
+    "hpmax": 1780,
+    "goldCost": 8000,
+    "scrollCost": 20
+  },
+  "60": {
+    "atk": 450,
+    "hpmax": 1800,
+    "goldCost": 8200,
+    "scrollCost": 20
+  },
+  "61": {
+    "atk": 455,
+    "hpmax": 1820,
+    "goldCost": 8400,
+    "scrollCost": 20
+  },
+  "62": {
+    "atk": 460,
+    "hpmax": 1840,
+    "goldCost": 8600,
+    "scrollCost": 20
+  },
+  "63": {
+    "atk": 465,
+    "hpmax": 1860,
+    "goldCost": 8800,
+    "scrollCost": 20
+  },
+  "64": {
+    "atk": 470,
+    "hpmax": 1880,
+    "goldCost": 9000,
+    "scrollCost": 20
+  },
+  "65": {
+    "atk": 475,
+    "hpmax": 1900,
+    "goldCost": 9200,
+    "scrollCost": 20
+  },
+  "66": {
+    "atk": 480,
+    "hpmax": 1920,
+    "goldCost": 9400,
+    "scrollCost": 20
+  },
+  "67": {
+    "atk": 485,
+    "hpmax": 1940,
+    "goldCost": 9600,
+    "scrollCost": 20
+  },
+  "68": {
+    "atk": 490,
+    "hpmax": 1960,
+    "goldCost": 9800,
+    "scrollCost": 20
+  },
+  "69": {
+    "atk": 495,
+    "hpmax": 1980,
+    "goldCost": 10000,
+    "scrollCost": 20
+  },
+  "70": {
+    "atk": 500,
+    "hpmax": 2000,
+    "goldCost": 10200,
+    "scrollCost": 20
+  },
+  "71": {
+    "atk": 505,
+    "hpmax": 2020,
+    "goldCost": 10400,
+    "scrollCost": 20
+  },
+  "72": {
+    "atk": 510,
+    "hpmax": 2040,
+    "goldCost": 10600,
+    "scrollCost": 20
+  },
+  "73": {
+    "atk": 515,
+    "hpmax": 2060,
+    "goldCost": 10800,
+    "scrollCost": 20
+  },
+  "74": {
+    "atk": 520,
+    "hpmax": 2080,
+    "goldCost": 11000,
+    "scrollCost": 20
+  },
+  "75": {
+    "atk": 525,
+    "hpmax": 2100,
+    "goldCost": 11200,
+    "scrollCost": 20
+  },
+  "76": {
+    "atk": 530,
+    "hpmax": 2120,
+    "goldCost": 11400,
+    "scrollCost": 20
+  },
+  "77": {
+    "atk": 535,
+    "hpmax": 2140,
+    "goldCost": 11600,
+    "scrollCost": 20
+  },
+  "78": {
+    "atk": 540,
+    "hpmax": 2160,
+    "goldCost": 11800,
+    "scrollCost": 20
+  },
+  "79": {
+    "atk": 545,
+    "hpmax": 2180,
+    "goldCost": 12000,
+    "scrollCost": 20
+  },
+  "80": {
+    "atk": 550,
+    "hpmax": 2200,
+    "goldCost": 12200,
+    "scrollCost": 20
+  },
+  "81": {
+    "atk": 555,
+    "hpmax": 2220,
+    "goldCost": 12400,
+    "scrollCost": 20
+  },
+  "82": {
+    "atk": 560,
+    "hpmax": 2240,
+    "goldCost": 12600,
+    "scrollCost": 20
+  },
+  "83": {
+    "atk": 565,
+    "hpmax": 2260,
+    "goldCost": 12800,
+    "scrollCost": 20
+  },
+  "84": {
+    "atk": 570,
+    "hpmax": 2280,
+    "goldCost": 13000,
+    "scrollCost": 20
+  },
+  "85": {
+    "atk": 575,
+    "hpmax": 2300,
+    "goldCost": 13200,
+    "scrollCost": 20
+  },
+  "86": {
+    "atk": 580,
+    "hpmax": 2320,
+    "goldCost": 13400,
+    "scrollCost": 20
+  },
+  "87": {
+    "atk": 585,
+    "hpmax": 2340,
+    "goldCost": 13600,
+    "scrollCost": 20
+  },
+  "88": {
+    "atk": 590,
+    "hpmax": 2360,
+    "goldCost": 13800,
+    "scrollCost": 20
+  },
+  "89": {
+    "atk": 595,
+    "hpmax": 2380,
+    "goldCost": 14000,
+    "scrollCost": 20
+  },
+  "90": {
+    "atk": 600,
+    "hpmax": 2400,
+    "goldCost": 14200,
+    "scrollCost": 20
+  },
+  "91": {
+    "atk": 605,
+    "hpmax": 2420,
+    "goldCost": 14400,
+    "scrollCost": 20
+  },
+  "92": {
+    "atk": 610,
+    "hpmax": 2440,
+    "goldCost": 14600,
+    "scrollCost": 20
+  },
+  "93": {
+    "atk": 615,
+    "hpmax": 2460,
+    "goldCost": 14800,
+    "scrollCost": 20
+  },
+  "94": {
+    "atk": 620,
+    "hpmax": 2480,
+    "goldCost": 15000,
+    "scrollCost": 20
+  },
+  "95": {
+    "atk": 625,
+    "hpmax": 2500,
+    "goldCost": 15200,
+    "scrollCost": 20
+  },
+  "96": {
+    "atk": 630,
+    "hpmax": 2520,
+    "goldCost": 15400,
+    "scrollCost": 20
+  },
+  "97": {
+    "atk": 635,
+    "hpmax": 2540,
+    "goldCost": 15600,
+    "scrollCost": 20
+  },
+  "98": {
+    "atk": 640,
+    "hpmax": 2560,
+    "goldCost": 15800,
+    "scrollCost": 20
+  },
+  "99": {
+    "atk": 645,
+    "hpmax": 2580,
+    "goldCost": 16000,
+    "scrollCost": 20
+  },
+  "100": {
+    "atk": 650,
+    "hpmax": 2600,
+    "goldCost": 16200,
+    "scrollCost": 20
+  },
+  "101": {
+    "atk": 655,
+    "hpmax": 2620,
+    "goldCost": 16400,
+    "scrollCost": 20
+  },
+  "102": {
+    "atk": 660,
+    "hpmax": 2640,
+    "goldCost": 16600,
+    "scrollCost": 20
+  },
+  "103": {
+    "atk": 665,
+    "hpmax": 2660,
+    "goldCost": 16800,
+    "scrollCost": 20
+  },
+  "104": {
+    "atk": 670,
+    "hpmax": 2680,
+    "goldCost": 17000,
+    "scrollCost": 20
+  },
+  "105": {
+    "atk": 675,
+    "hpmax": 2700,
+    "goldCost": 17200,
+    "scrollCost": 20
+  },
+  "106": {
+    "atk": 680,
+    "hpmax": 2720,
+    "goldCost": 17400,
+    "scrollCost": 20
+  },
+  "107": {
+    "atk": 685,
+    "hpmax": 2740,
+    "goldCost": 17600,
+    "scrollCost": 20
+  },
+  "108": {
+    "atk": 690,
+    "hpmax": 2760,
+    "goldCost": 17800,
+    "scrollCost": 20
+  },
+  "109": {
+    "atk": 695,
+    "hpmax": 2780,
+    "goldCost": 18000,
+    "scrollCost": 20
+  },
+  "110": {
+    "atk": 700,
+    "hpmax": 2800,
+    "goldCost": 18200,
+    "scrollCost": 20
+  },
+  "111": {
+    "atk": 705,
+    "hpmax": 2820,
+    "goldCost": 18400,
+    "scrollCost": 20
+  },
+  "112": {
+    "atk": 710,
+    "hpmax": 2840,
+    "goldCost": 18600,
+    "scrollCost": 20
+  },
+  "113": {
+    "atk": 715,
+    "hpmax": 2860,
+    "goldCost": 18800,
+    "scrollCost": 20
+  },
+  "114": {
+    "atk": 720,
+    "hpmax": 2880,
+    "goldCost": 19000,
+    "scrollCost": 20
+  },
+  "115": {
+    "atk": 725,
+    "hpmax": 2900,
+    "goldCost": 19200,
+    "scrollCost": 20
+  },
+  "116": {
+    "atk": 730,
+    "hpmax": 2920,
+    "goldCost": 19400,
+    "scrollCost": 20
+  },
+  "117": {
+    "atk": 735,
+    "hpmax": 2940,
+    "goldCost": 19600,
+    "scrollCost": 20
+  },
+  "118": {
+    "atk": 740,
+    "hpmax": 2960,
+    "goldCost": 19800,
+    "scrollCost": 20
+  },
+  "119": {
+    "atk": 745,
+    "hpmax": 2980,
+    "goldCost": 20000,
+    "scrollCost": 20
+  },
+  "120": {
+    "atk": 750,
+    "hpmax": 3000,
+    "goldCost": 20200,
+    "scrollCost": 20
+  },
+  "121": {
+    "atk": 755,
+    "hpmax": 3020,
+    "goldCost": 20400,
+    "scrollCost": 20
+  },
+  "122": {
+    "atk": 760,
+    "hpmax": 3040,
+    "goldCost": 20600,
+    "scrollCost": 20
+  },
+  "123": {
+    "atk": 765,
+    "hpmax": 3060,
+    "goldCost": 20800,
+    "scrollCost": 20
+  },
+  "124": {
+    "atk": 770,
+    "hpmax": 3080,
+    "goldCost": 21000,
+    "scrollCost": 20
+  },
+  "125": {
+    "atk": 775,
+    "hpmax": 3100,
+    "goldCost": 21200,
+    "scrollCost": 20
+  },
+  "126": {
+    "atk": 780,
+    "hpmax": 3120,
+    "goldCost": 21400,
+    "scrollCost": 20
+  },
+  "127": {
+    "atk": 785,
+    "hpmax": 3140,
+    "goldCost": 21600,
+    "scrollCost": 20
+  },
+  "128": {
+    "atk": 790,
+    "hpmax": 3160,
+    "goldCost": 21800,
+    "scrollCost": 20
+  },
+  "129": {
+    "atk": 795,
+    "hpmax": 3180,
+    "goldCost": 22000,
+    "scrollCost": 20
+  },
+  "130": {
+    "atk": 800,
+    "hpmax": 3200,
+    "goldCost": 22200,
+    "scrollCost": 20
+  },
+  "131": {
+    "atk": 805,
+    "hpmax": 3220,
+    "goldCost": 22400,
+    "scrollCost": 20
+  },
+  "132": {
+    "atk": 810,
+    "hpmax": 3240,
+    "goldCost": 22600,
+    "scrollCost": 20
+  },
+  "133": {
+    "atk": 815,
+    "hpmax": 3260,
+    "goldCost": 22800,
+    "scrollCost": 20
+  },
+  "134": {
+    "atk": 820,
+    "hpmax": 3280,
+    "goldCost": 23000,
+    "scrollCost": 20
+  },
+  "135": {
+    "atk": 825,
+    "hpmax": 3300,
+    "goldCost": 23200,
+    "scrollCost": 20
+  },
+  "136": {
+    "atk": 830,
+    "hpmax": 3320,
+    "goldCost": 23400,
+    "scrollCost": 20
+  },
+  "137": {
+    "atk": 835,
+    "hpmax": 3340,
+    "goldCost": 23600,
+    "scrollCost": 20
+  },
+  "138": {
+    "atk": 840,
+    "hpmax": 3360,
+    "goldCost": 23800,
+    "scrollCost": 20
+  },
+  "139": {
+    "atk": 845,
+    "hpmax": 3380,
+    "goldCost": 24000,
+    "scrollCost": 20
+  },
+  "140": {
+    "atk": 850,
+    "hpmax": 3400,
+    "goldCost": 24200,
+    "scrollCost": 20
+  },
+  "141": {
+    "atk": 855,
+    "hpmax": 3420,
+    "goldCost": 24400,
+    "scrollCost": 20
+  },
+  "142": {
+    "atk": 860,
+    "hpmax": 3440,
+    "goldCost": 24600,
+    "scrollCost": 20
+  },
+  "143": {
+    "atk": 865,
+    "hpmax": 3460,
+    "goldCost": 24800,
+    "scrollCost": 20
+  },
+  "144": {
+    "atk": 870,
+    "hpmax": 3480,
+    "goldCost": 25000,
+    "scrollCost": 20
+  },
+  "145": {
+    "atk": 875,
+    "hpmax": 3500,
+    "goldCost": 25200,
+    "scrollCost": 20
+  },
+  "146": {
+    "atk": 880,
+    "hpmax": 3520,
+    "goldCost": 25400,
+    "scrollCost": 20
+  },
+  "147": {
+    "atk": 885,
+    "hpmax": 3540,
+    "goldCost": 25600,
+    "scrollCost": 20
+  },
+  "148": {
+    "atk": 890,
+    "hpmax": 3560,
+    "goldCost": 25800,
+    "scrollCost": 20
+  },
+  "149": {
+    "atk": 895,
+    "hpmax": 3580,
+    "goldCost": 26000,
+    "scrollCost": 20
+  },
+  "150": {
+    "atk": 900,
+    "hpmax": 3600,
+    "goldCost": 26200,
+    "scrollCost": 20
+  },
+  "151": {
+    "atk": 905,
+    "hpmax": 3620,
+    "goldCost": 26400,
+    "scrollCost": 20
+  },
+  "152": {
+    "atk": 910,
+    "hpmax": 3640,
+    "goldCost": 26600,
+    "scrollCost": 20
+  },
+  "153": {
+    "atk": 915,
+    "hpmax": 3660,
+    "goldCost": 26800,
+    "scrollCost": 20
+  },
+  "154": {
+    "atk": 920,
+    "hpmax": 3680,
+    "goldCost": 27000,
+    "scrollCost": 20
+  },
+  "155": {
+    "atk": 925,
+    "hpmax": 3700,
+    "goldCost": 27200,
+    "scrollCost": 20
+  },
+  "156": {
+    "atk": 930,
+    "hpmax": 3720,
+    "goldCost": 27400,
+    "scrollCost": 20
+  },
+  "157": {
+    "atk": 935,
+    "hpmax": 3740,
+    "goldCost": 27600,
+    "scrollCost": 20
+  },
+  "158": {
+    "atk": 940,
+    "hpmax": 3760,
+    "goldCost": 27800,
+    "scrollCost": 20
+  },
+  "159": {
+    "atk": 945,
+    "hpmax": 3780,
+    "goldCost": 28000,
+    "scrollCost": 20
+  },
+  "160": {
+    "atk": 950,
+    "hpmax": 3800,
+    "goldCost": 28200,
+    "scrollCost": 20
+  },
+  "161": {
+    "atk": 955,
+    "hpmax": 3820,
+    "goldCost": 28400,
+    "scrollCost": 20
+  },
+  "162": {
+    "atk": 960,
+    "hpmax": 3840,
+    "goldCost": 28600,
+    "scrollCost": 20
+  },
+  "163": {
+    "atk": 965,
+    "hpmax": 3860,
+    "goldCost": 28800,
+    "scrollCost": 20
+  },
+  "164": {
+    "atk": 970,
+    "hpmax": 3880,
+    "goldCost": 29000,
+    "scrollCost": 20
+  },
+  "165": {
+    "atk": 975,
+    "hpmax": 3900,
+    "goldCost": 29200,
+    "scrollCost": 20
+  },
+  "166": {
+    "atk": 980,
+    "hpmax": 3920,
+    "goldCost": 29400,
+    "scrollCost": 20
+  },
+  "167": {
+    "atk": 985,
+    "hpmax": 3940,
+    "goldCost": 29600,
+    "scrollCost": 20
+  },
+  "168": {
+    "atk": 990,
+    "hpmax": 3960,
+    "goldCost": 29800,
+    "scrollCost": 20
+  },
+  "169": {
+    "atk": 995,
+    "hpmax": 3980,
+    "goldCost": 30000,
+    "scrollCost": 20
+  },
+  "170": {
+    "atk": 1000,
+    "hpmax": 4000,
+    "goldCost": 30200,
+    "scrollCost": 20
+  },
+  "171": {
+    "atk": 1005,
+    "hpmax": 4020,
+    "goldCost": 30400,
+    "scrollCost": 20
+  },
+  "172": {
+    "atk": 1010,
+    "hpmax": 4040,
+    "goldCost": 30600,
+    "scrollCost": 20
+  },
+  "173": {
+    "atk": 1015,
+    "hpmax": 4060,
+    "goldCost": 30800,
+    "scrollCost": 20
+  },
+  "174": {
+    "atk": 1020,
+    "hpmax": 4080,
+    "goldCost": 31000,
+    "scrollCost": 20
+  },
+  "175": {
+    "atk": 1025,
+    "hpmax": 4100,
+    "goldCost": 31200,
+    "scrollCost": 20
+  },
+  "176": {
+    "atk": 1030,
+    "hpmax": 4120,
+    "goldCost": 31400,
+    "scrollCost": 20
+  },
+  "177": {
+    "atk": 1035,
+    "hpmax": 4140,
+    "goldCost": 31600,
+    "scrollCost": 20
+  },
+  "178": {
+    "atk": 1040,
+    "hpmax": 4160,
+    "goldCost": 31800,
+    "scrollCost": 20
+  },
+  "179": {
+    "atk": 1045,
+    "hpmax": 4180,
+    "goldCost": 32000,
+    "scrollCost": 20
+  },
+  "180": {
+    "atk": 1050,
+    "hpmax": 4200,
+    "goldCost": 32200,
+    "scrollCost": 20
+  },
+  "181": {
+    "atk": 1055,
+    "hpmax": 4220,
+    "goldCost": 32400,
+    "scrollCost": 20
+  },
+  "182": {
+    "atk": 1060,
+    "hpmax": 4240,
+    "goldCost": 32600,
+    "scrollCost": 20
+  },
+  "183": {
+    "atk": 1065,
+    "hpmax": 4260,
+    "goldCost": 32800,
+    "scrollCost": 20
+  },
+  "184": {
+    "atk": 1070,
+    "hpmax": 4280,
+    "goldCost": 33000,
+    "scrollCost": 20
+  },
+  "185": {
+    "atk": 1075,
+    "hpmax": 4300,
+    "goldCost": 33200,
+    "scrollCost": 20
+  },
+  "186": {
+    "atk": 1080,
+    "hpmax": 4320,
+    "goldCost": 33400,
+    "scrollCost": 20
+  },
+  "187": {
+    "atk": 1085,
+    "hpmax": 4340,
+    "goldCost": 33600,
+    "scrollCost": 20
+  },
+  "188": {
+    "atk": 1090,
+    "hpmax": 4360,
+    "goldCost": 33800,
+    "scrollCost": 20
+  },
+  "189": {
+    "atk": 1095,
+    "hpmax": 4380,
+    "goldCost": 34000,
+    "scrollCost": 20
+  },
+  "190": {
+    "atk": 1100,
+    "hpmax": 4400,
+    "goldCost": 34200,
+    "scrollCost": 20
+  },
+  "191": {
+    "atk": 1105,
+    "hpmax": 4420,
+    "goldCost": 34400,
+    "scrollCost": 20
+  },
+  "192": {
+    "atk": 1110,
+    "hpmax": 4440,
+    "goldCost": 34600,
+    "scrollCost": 20
+  },
+  "193": {
+    "atk": 1115,
+    "hpmax": 4460,
+    "goldCost": 34800,
+    "scrollCost": 20
+  },
+  "194": {
+    "atk": 1120,
+    "hpmax": 4480,
+    "goldCost": 35000,
+    "scrollCost": 20
+  },
+  "195": {
+    "atk": 1125,
+    "hpmax": 4500,
+    "goldCost": 35200,
+    "scrollCost": 20
+  },
+  "196": {
+    "atk": 1130,
+    "hpmax": 4520,
+    "goldCost": 35400,
+    "scrollCost": 20
+  },
+  "197": {
+    "atk": 1135,
+    "hpmax": 4540,
+    "goldCost": 35600,
+    "scrollCost": 20
+  },
+  "198": {
+    "atk": 1140,
+    "hpmax": 4560,
+    "goldCost": 35800,
+    "scrollCost": 20
+  },
+  "199": {
+    "atk": 1145,
+    "hpmax": 4580,
+    "goldCost": 36000,
+    "scrollCost": 20
+  },
+  "200": {
+    "atk": 1150,
+    "hpmax": 4600,
+    "goldCost": 36200,
+    "scrollCost": 20
+  },
+  "201": {
+    "atk": 1155,
+    "hpmax": 4620,
+    "goldCost": 36400,
+    "scrollCost": 20
+  },
+  "202": {
+    "atk": 1160,
+    "hpmax": 4640,
+    "goldCost": 36600,
+    "scrollCost": 20
+  },
+  "203": {
+    "atk": 1165,
+    "hpmax": 4660,
+    "goldCost": 36800,
+    "scrollCost": 20
+  },
+  "204": {
+    "atk": 1170,
+    "hpmax": 4680,
+    "goldCost": 37000,
+    "scrollCost": 20
+  },
+  "205": {
+    "atk": 1175,
+    "hpmax": 4700,
+    "goldCost": 37200,
+    "scrollCost": 20
+  },
+  "206": {
+    "atk": 1180,
+    "hpmax": 4720,
+    "goldCost": 37400,
+    "scrollCost": 20
+  },
+  "207": {
+    "atk": 1185,
+    "hpmax": 4740,
+    "goldCost": 37600,
+    "scrollCost": 20
+  },
+  "208": {
+    "atk": 1190,
+    "hpmax": 4760,
+    "goldCost": 37800,
+    "scrollCost": 20
+  },
+  "209": {
+    "atk": 1195,
+    "hpmax": 4780,
+    "goldCost": 38000,
+    "scrollCost": 20
+  },
+  "210": {
+    "atk": 1200,
+    "hpmax": 4800,
+    "goldCost": 38200,
+    "scrollCost": 20
+  },
+  "211": {
+    "atk": 1205,
+    "hpmax": 4820,
+    "goldCost": 38400,
+    "scrollCost": 20
+  },
+  "212": {
+    "atk": 1210,
+    "hpmax": 4840,
+    "goldCost": 38600,
+    "scrollCost": 20
+  },
+  "213": {
+    "atk": 1215,
+    "hpmax": 4860,
+    "goldCost": 38800,
+    "scrollCost": 20
+  },
+  "214": {
+    "atk": 1220,
+    "hpmax": 4880,
+    "goldCost": 39000,
+    "scrollCost": 20
+  },
+  "215": {
+    "atk": 1225,
+    "hpmax": 4900,
+    "goldCost": 39200,
+    "scrollCost": 20
+  },
+  "216": {
+    "atk": 1230,
+    "hpmax": 4920,
+    "goldCost": 39400,
+    "scrollCost": 20
+  },
+  "217": {
+    "atk": 1235,
+    "hpmax": 4940,
+    "goldCost": 39600,
+    "scrollCost": 20
+  },
+  "218": {
+    "atk": 1240,
+    "hpmax": 4960,
+    "goldCost": 39800,
+    "scrollCost": 20
+  },
+  "219": {
+    "atk": 1245,
+    "hpmax": 4980,
+    "goldCost": 40000,
+    "scrollCost": 20
+  },
+  "220": {
+    "atk": 1250,
+    "hpmax": 5000,
+    "goldCost": 40200,
+    "scrollCost": 20
+  },
+  "221": {
+    "atk": 1255,
+    "hpmax": 5020,
+    "goldCost": 40400,
+    "scrollCost": 20
+  },
+  "222": {
+    "atk": 1260,
+    "hpmax": 5040,
+    "goldCost": 40600,
+    "scrollCost": 20
+  },
+  "223": {
+    "atk": 1265,
+    "hpmax": 5060,
+    "goldCost": 40800,
+    "scrollCost": 20
+  },
+  "224": {
+    "atk": 1270,
+    "hpmax": 5080,
+    "goldCost": 41000,
+    "scrollCost": 20
+  },
+  "225": {
+    "atk": 1275,
+    "hpmax": 5100,
+    "goldCost": 41200,
+    "scrollCost": 20
+  },
+  "226": {
+    "atk": 1280,
+    "hpmax": 5120,
+    "goldCost": 41400,
+    "scrollCost": 20
+  },
+  "227": {
+    "atk": 1285,
+    "hpmax": 5140,
+    "goldCost": 41600,
+    "scrollCost": 20
+  },
+  "228": {
+    "atk": 1290,
+    "hpmax": 5160,
+    "goldCost": 41800,
+    "scrollCost": 20
+  },
+  "229": {
+    "atk": 1295,
+    "hpmax": 5180,
+    "goldCost": 42000,
+    "scrollCost": 20
+  },
+  "230": {
+    "atk": 1300,
+    "hpmax": 5200,
+    "goldCost": 42200,
+    "scrollCost": 20
+  },
+  "231": {
+    "atk": 1305,
+    "hpmax": 5220,
+    "goldCost": 42400,
+    "scrollCost": 20
+  },
+  "232": {
+    "atk": 1310,
+    "hpmax": 5240,
+    "goldCost": 42600,
+    "scrollCost": 20
+  },
+  "233": {
+    "atk": 1315,
+    "hpmax": 5260,
+    "goldCost": 42800,
+    "scrollCost": 20
+  },
+  "234": {
+    "atk": 1320,
+    "hpmax": 5280,
+    "goldCost": 43000,
+    "scrollCost": 20
+  },
+  "235": {
+    "atk": 1325,
+    "hpmax": 5300,
+    "goldCost": 43200,
+    "scrollCost": 20
+  },
+  "236": {
+    "atk": 1330,
+    "hpmax": 5320,
+    "goldCost": 43400,
+    "scrollCost": 20
+  },
+  "237": {
+    "atk": 1335,
+    "hpmax": 5340,
+    "goldCost": 43600,
+    "scrollCost": 20
+  },
+  "238": {
+    "atk": 1340,
+    "hpmax": 5360,
+    "goldCost": 43800,
+    "scrollCost": 20
+  },
+  "239": {
+    "atk": 1345,
+    "hpmax": 5380,
+    "goldCost": 44000,
+    "scrollCost": 20
+  },
+  "240": {
+    "atk": 1350,
+    "hpmax": 5400,
+    "goldCost": 44200,
+    "scrollCost": 20
+  },
+  "241": {
+    "atk": 1355,
+    "hpmax": 5420,
+    "goldCost": 44400,
+    "scrollCost": 20
+  },
+  "242": {
+    "atk": 1360,
+    "hpmax": 5440,
+    "goldCost": 44600,
+    "scrollCost": 20
+  },
+  "243": {
+    "atk": 1365,
+    "hpmax": 5460,
+    "goldCost": 44800,
+    "scrollCost": 20
+  },
+  "244": {
+    "atk": 1370,
+    "hpmax": 5480,
+    "goldCost": 45000,
+    "scrollCost": 20
+  },
+  "245": {
+    "atk": 1375,
+    "hpmax": 5500,
+    "goldCost": 45200,
+    "scrollCost": 20
+  },
+  "246": {
+    "atk": 1380,
+    "hpmax": 5520,
+    "goldCost": 45400,
+    "scrollCost": 20
+  },
+  "247": {
+    "atk": 1385,
+    "hpmax": 5540,
+    "goldCost": 45600,
+    "scrollCost": 20
+  },
+  "248": {
+    "atk": 1390,
+    "hpmax": 5560,
+    "goldCost": 45800,
+    "scrollCost": 20
+  },
+  "249": {
+    "atk": 1395,
+    "hpmax": 5580,
+    "goldCost": 46000,
+    "scrollCost": 20
+  },
+  "250": {
+    "atk": 1400,
+    "hpmax": 5600,
+    "goldCost": 46200,
+    "scrollCost": 20
+  },
+  "251": {
+    "atk": 1405,
+    "hpmax": 5620,
+    "goldCost": 46400,
+    "scrollCost": 20
+  },
+  "252": {
+    "atk": 1410,
+    "hpmax": 5640,
+    "goldCost": 46600,
+    "scrollCost": 20
+  },
+  "253": {
+    "atk": 1415,
+    "hpmax": 5660,
+    "goldCost": 46800,
+    "scrollCost": 20
+  },
+  "254": {
+    "atk": 1420,
+    "hpmax": 5680,
+    "goldCost": 47000,
+    "scrollCost": 20
+  },
+  "255": {
+    "atk": 1425,
+    "hpmax": 5700,
+    "goldCost": 47200,
+    "scrollCost": 20
+  },
+  "256": {
+    "atk": 1430,
+    "hpmax": 5720,
+    "goldCost": 47400,
+    "scrollCost": 20
+  },
+  "257": {
+    "atk": 1435,
+    "hpmax": 5740,
+    "goldCost": 47600,
+    "scrollCost": 20
+  },
+  "258": {
+    "atk": 1440,
+    "hpmax": 5760,
+    "goldCost": 47800,
+    "scrollCost": 20
+  },
+  "259": {
+    "atk": 1445,
+    "hpmax": 5780,
+    "goldCost": 48000,
+    "scrollCost": 20
+  },
+  "260": {
+    "atk": 1450,
+    "hpmax": 5800,
+    "goldCost": 48200,
+    "scrollCost": 20
+  },
+  "261": {
+    "atk": 1455,
+    "hpmax": 5820,
+    "goldCost": 48400,
+    "scrollCost": 20
+  },
+  "262": {
+    "atk": 1460,
+    "hpmax": 5840,
+    "goldCost": 48600,
+    "scrollCost": 20
+  },
+  "263": {
+    "atk": 1465,
+    "hpmax": 5860,
+    "goldCost": 48800,
+    "scrollCost": 20
+  },
+  "264": {
+    "atk": 1470,
+    "hpmax": 5880,
+    "goldCost": 49000,
+    "scrollCost": 20
+  },
+  "265": {
+    "atk": 1475,
+    "hpmax": 5900,
+    "goldCost": 49200,
+    "scrollCost": 20
+  },
+  "266": {
+    "atk": 1480,
+    "hpmax": 5920,
+    "goldCost": 49400,
+    "scrollCost": 20
+  },
+  "267": {
+    "atk": 1485,
+    "hpmax": 5940,
+    "goldCost": 49600,
+    "scrollCost": 20
+  },
+  "268": {
+    "atk": 1490,
+    "hpmax": 5960,
+    "goldCost": 49800,
+    "scrollCost": 20
+  },
+  "269": {
+    "atk": 1495,
+    "hpmax": 5980,
+    "goldCost": 50000,
+    "scrollCost": 20
+  },
+  "270": {
+    "atk": 1500,
+    "hpmax": 6000,
+    "goldCost": 50200,
+    "scrollCost": 20
+  },
+  "271": {
+    "atk": 1505,
+    "hpmax": 6020,
+    "goldCost": 50400,
+    "scrollCost": 20
+  },
+  "272": {
+    "atk": 1510,
+    "hpmax": 6040,
+    "goldCost": 50600,
+    "scrollCost": 20
+  },
+  "273": {
+    "atk": 1515,
+    "hpmax": 6060,
+    "goldCost": 50800,
+    "scrollCost": 20
+  },
+  "274": {
+    "atk": 1520,
+    "hpmax": 6080,
+    "goldCost": 51000,
+    "scrollCost": 20
+  },
+  "275": {
+    "atk": 1525,
+    "hpmax": 6100,
+    "goldCost": 51200,
+    "scrollCost": 20
+  },
+  "276": {
+    "atk": 1530,
+    "hpmax": 6120,
+    "goldCost": 51400,
+    "scrollCost": 20
+  },
+  "277": {
+    "atk": 1535,
+    "hpmax": 6140,
+    "goldCost": 51600,
+    "scrollCost": 20
+  },
+  "278": {
+    "atk": 1540,
+    "hpmax": 6160,
+    "goldCost": 51800,
+    "scrollCost": 20
+  },
+  "279": {
+    "atk": 1545,
+    "hpmax": 6180,
+    "goldCost": 52000,
+    "scrollCost": 20
+  },
+  "280": {
+    "atk": 1550,
+    "hpmax": 6200,
+    "goldCost": 52200,
+    "scrollCost": 20
+  },
+  "281": {
+    "atk": 1555,
+    "hpmax": 6220,
+    "goldCost": 52400,
+    "scrollCost": 20
+  },
+  "282": {
+    "atk": 1560,
+    "hpmax": 6240,
+    "goldCost": 52600,
+    "scrollCost": 20
+  },
+  "283": {
+    "atk": 1565,
+    "hpmax": 6260,
+    "goldCost": 52800,
+    "scrollCost": 20
+  },
+  "284": {
+    "atk": 1570,
+    "hpmax": 6280,
+    "goldCost": 53000,
+    "scrollCost": 20
+  },
+  "285": {
+    "atk": 1575,
+    "hpmax": 6300,
+    "goldCost": 53200,
+    "scrollCost": 20
+  },
+  "286": {
+    "atk": 1580,
+    "hpmax": 6320,
+    "goldCost": 53400,
+    "scrollCost": 20
+  },
+  "287": {
+    "atk": 1585,
+    "hpmax": 6340,
+    "goldCost": 53600,
+    "scrollCost": 20
+  },
+  "288": {
+    "atk": 1590,
+    "hpmax": 6360,
+    "goldCost": 53800,
+    "scrollCost": 20
+  },
+  "289": {
+    "atk": 1595,
+    "hpmax": 6380,
+    "goldCost": 54000,
+    "scrollCost": 20
+  },
+  "290": {
+    "atk": 1600,
+    "hpmax": 6400,
+    "goldCost": 54200,
+    "scrollCost": 20
+  },
+  "291": {
+    "atk": 1605,
+    "hpmax": 6420,
+    "goldCost": 54400,
+    "scrollCost": 20
+  },
+  "292": {
+    "atk": 1610,
+    "hpmax": 6440,
+    "goldCost": 54600,
+    "scrollCost": 20
+  },
+  "293": {
+    "atk": 1615,
+    "hpmax": 6460,
+    "goldCost": 54800,
+    "scrollCost": 20
+  },
+  "294": {
+    "atk": 1620,
+    "hpmax": 6480,
+    "goldCost": 55000,
+    "scrollCost": 20
+  },
+  "295": {
+    "atk": 1625,
+    "hpmax": 6500,
+    "goldCost": 55200,
+    "scrollCost": 20
+  },
+  "296": {
+    "atk": 1630,
+    "hpmax": 6520,
+    "goldCost": 55400,
+    "scrollCost": 20
+  },
+  "297": {
+    "atk": 1635,
+    "hpmax": 6540,
+    "goldCost": 55600,
+    "scrollCost": 20
+  },
+  "298": {
+    "atk": 1640,
+    "hpmax": 6560,
+    "goldCost": 55800,
+    "scrollCost": 20
+  },
+  "299": {
+    "atk": 1645,
+    "hpmax": 6580,
+    "goldCost": 56000,
+    "scrollCost": 20
+  },
+  "300": {
+    "atk": 1650,
+    "hpmax": 6600,
+    "goldCost": 56200,
+    "scrollCost": 20
+  }
+}

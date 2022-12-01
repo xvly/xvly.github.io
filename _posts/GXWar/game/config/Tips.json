@@ -1,0 +1,35 @@
+{
+  "1": {
+    "title": "jbbz_txt_3",
+    "desc": "是否继续未完成的战斗？",
+    "button1": "jbbz_txt_qx",
+    "button2": "jbbz_txt_qd"
+  },
+  "2": {
+    "title": "jbbz_txt_1",
+    "desc": "观看视频可免费获取体力！",
+    "itemIcon": "common_icon_tili",
+    "number": 5,
+    "button1": "jbbz_txt_qx",
+    "button2": "jbbz_txt_lq",
+    "isVideo": "true"
+  },
+  "3": {
+    "title": "jbbz_txt_2",
+    "desc": "观看视频可免费获取金币！",
+    "itemIcon": "jbbz_img_jb",
+    "number": 5000,
+    "button1": "jbbz_txt_qx",
+    "button2": "jbbz_txt_lq",
+    "isVideo": "true"
+  },
+  "4": {
+    "title": "芯片不足",
+    "desc": "观看视频可免费获取芯片！",
+    "itemIcon": "common_icon_zuanshi",
+    "number": 50,
+    "button1": "jbbz_txt_qx",
+    "button2": "jbbz_txt_lq",
+    "isVideo": "true"
+  }
+}

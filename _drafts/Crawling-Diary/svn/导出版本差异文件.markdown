@@ -1,0 +1,4 @@
+
+列出版本差异文件
+svn log -v -r revFrom:revTo
+

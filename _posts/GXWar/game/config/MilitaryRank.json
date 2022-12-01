@@ -1,0 +1,155 @@
+{
+  "1": {
+    "name": "新兵",
+    "res": "military_txt_xinbing",
+    "flag1": "military_img_grayflag",
+    "flag2": "military_img_flag_gray",
+    "prestige": 50,
+    "openBuff": [1,5,6,10,11,12,13,14,18,19,20,21,22,25,31,32]
+  },
+  "2": {
+    "name": "列兵",
+    "res": "military_txt_liebing",
+    "flag1": "military_img_grayflag",
+    "flag2": "military_img_flag_gray",
+    "prestige": 60,
+    "reward": [[1,300],[11012,1]],
+    "rewardShow": 10002
+  },
+  "3": {
+    "name": "上等兵",
+    "res": "military_txt_shangdengbing",
+    "flag1": "military_img_grayflag",
+    "flag2": "military_img_flag_gray",
+    "prestige": 80,
+    "reward": [[1,500],[3,5]],
+    "openBuff": [9,23,26]
+  },
+  "4": {
+    "name": "士官",
+    "res": "military_txt_shiguan",
+    "flag1": "military_img_greeflag",
+    "flag2": "military_img_flag_gree",
+    "prestige": 100,
+    "reward": [[1,600],[12013,1]],
+    "rewardShow": 10003
+  },
+  "5": {
+    "name": "下士",
+    "res": "military_txt_xiashi",
+    "flag1": "military_img_greeflag",
+    "flag2": "military_img_flag_gree",
+    "prestige": 100,
+    "reward": [[1,800],[3,10]],
+    "openBuff": [7,15,16]
+  },
+  "6": {
+    "name": "中士",
+    "res": "military_txt_zhongshi",
+    "flag1": "military_img_greeflag",
+    "flag2": "military_img_flag_gree",
+    "prestige": 100,
+    "reward": [[1,1000],[13014,1]],
+    "rewardShow": 10004
+  },
+  "7": {
+    "name": "上士",
+    "res": "military_txt_shangshi",
+    "flag1": "military_img_greeflag",
+    "flag2": "military_img_flag_gree",
+    "prestige": 100,
+    "reward": [[1,1200],[3,10]]
+  },
+  "8": {
+    "name": "少尉",
+    "res": "military_txt_shaowei",
+    "flag1": "military_img_blueflag",
+    "flag2": "military_img_flag_blue",
+    "prestige": 100,
+    "reward": [[1,1500],[13011,1]],
+    "rewardShow": 10001,
+    "openBuff": [2,3,8]
+  },
+  "9": {
+    "name": "中尉",
+    "res": "military_txt_zhongwei",
+    "flag1": "military_img_blueflag",
+    "flag2": "military_img_flag_blue",
+    "prestige": 100,
+    "reward": [[1,2000],[3,10]]
+  },
+  "10": {
+    "name": "上尉",
+    "res": "military_txt_shangwei",
+    "flag1": "military_img_blueflag",
+    "flag2": "military_img_flag_blue",
+    "prestige": 100,
+    "reward": [[1,2500],[13012,1]],
+    "rewardShow": 10002
+  },
+  "11": {
+    "name": "少校",
+    "res": "military_txt_shaoxiao",
+    "flag1": "military_img_violetflag",
+    "flag2": "military_img_flag_violet",
+    "prestige": 100,
+    "reward": [[1,3000],[3,10]]
+  },
+  "12": {
+    "name": "中校",
+    "res": "military_txt_zhongxiao",
+    "flag1": "military_img_violetflag",
+    "flag2": "military_img_flag_violet",
+    "prestige": 100,
+    "reward": [[1,3000],[13013,1]],
+    "rewardShow": 10003
+  },
+  "13": {
+    "name": "上校",
+    "res": "military_txt_shangxiao",
+    "flag1": "military_img_violetflag",
+    "flag2": "military_img_flag_violet",
+    "prestige": 100,
+    "reward": [[1,3000],[3,10]]
+  },
+  "14": {
+    "name": "大校",
+    "res": "military_txt_daxiao",
+    "flag1": "military_img_violetflag",
+    "flag2": "military_img_flag_violet",
+    "prestige": 100,
+    "reward": [[1,3000],[14014,1]],
+    "rewardShow": 10004
+  },
+  "15": {
+    "name": "少将",
+    "res": "military_txt_shaojiang",
+    "flag1": "military_img_yellowflag",
+    "flag2": "military_img_flag_yellow",
+    "prestige": 100,
+    "reward": [[1,3000],[3,10]]
+  },
+  "16": {
+    "name": "中将",
+    "res": "military_txt_zhongjiang",
+    "flag1": "military_img_yellowflag",
+    "flag2": "military_img_flag_yellow",
+    "prestige": 100,
+    "reward": [[1,3000],[3,10]]
+  },
+  "17": {
+    "name": "上将",
+    "res": "military_txt_shangjiang",
+    "flag1": "military_img_yellowflag",
+    "flag2": "military_img_flag_yellow",
+    "prestige": 100,
+    "reward": [[1,3000],[3,10]]
+  },
+  "18": {
+    "name": "总司令",
+    "res": "military_txt_boss",
+    "flag1": "military_img_redflag",
+    "flag2": "military_img_flag_red",
+    "reward": [[1,3000],[3,10]]
+  }
+}

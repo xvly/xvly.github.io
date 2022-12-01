@@ -1,0 +1,37 @@
+{
+  "1": {
+    "Item": [2,50],
+    "Icon": "common_icon_zuanshi",
+    "baseMap": "qd_frame_qiandao2"
+  },
+  "2": {
+    "Item": [11011,1],
+    "Icon": "common_icon_jn11011",
+    "baseMap": "qd_frame_qiandao2"
+  },
+  "3": {
+    "Item": [12021,1],
+    "Icon": "common_icon_jn11021",
+    "baseMap": "qd_frame_qiandao3"
+  },
+  "4": {
+    "Item": [2,80],
+    "Icon": "common_icon_zuanshi",
+    "baseMap": "qd_frame_qiandao2"
+  },
+  "5": {
+    "Item": [12031,1],
+    "Icon": "common_icon_jn11031",
+    "baseMap": "qd_frame_qiandao3"
+  },
+  "6": {
+    "Item": [2,150],
+    "Icon": "common_icon_zuanshi",
+    "baseMap": "qd_frame_qiandao2"
+  },
+  "7": {
+    "Item": [13012,1],
+    "Icon": "common_icon_jn11012",
+    "baseMap": "qd_frame_qiandao5"
+  }
+}

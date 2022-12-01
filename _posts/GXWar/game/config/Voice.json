@@ -1,0 +1,98 @@
+{
+  "1000": {
+    "res": "Bgm1.mp3",
+    "volume": 80
+  },
+  "2000": {
+    "res": "Coin.mp3",
+    "volume": 50
+  },
+  "2001": {
+    "res": "Explosion1.mp3",
+    "volume": 80
+  },
+  "2002": {
+    "res": "Explosion2.mp3",
+    "volume": 100
+  },
+  "2003": {
+    "res": "GetBuff.mp3",
+    "volume": 50
+  },
+  "2004": {
+    "res": "GetBuff2.mp3",
+    "volume": 50
+  },
+  "2005": {
+    "res": "Gun1.mp3",
+    "volume": 20
+  },
+  "2006": {
+    "res": "Gun2.mp3",
+    "volume": 30
+  },
+  "2007": {
+    "res": "Hit1.mp3",
+    "volume": 40
+  },
+  "2008": {
+    "res": "Hit2.mp3",
+    "volume": 40
+  },
+  "2009": {
+    "res": "RecoverHP.mp3",
+    "volume": 50
+  },
+  "2010": {
+    "res": "Zhuanpan.mp3",
+    "volume": 50
+  },
+  "2011": {
+    "res": "Zhuanpanreward.mp3",
+    "volume": 50
+  },
+  "2012": {
+    "res": "Chongfeng.mp3",
+    "volume": 50
+  },
+  "2013": {
+    "res": "Thuner.mp3",
+    "volume": 50
+  },
+  "2014": {
+    "res": "Gun3.mp3",
+    "volume": 30
+  },
+  "2015": {
+    "res": "Bullet_Impact_Metal_Shield1.mp3",
+    "volume": 30
+  },
+  "2016": {
+    "res": "Bullet_Impact_Metal_Shield2.mp3",
+    "volume": 30
+  },
+  "2017": {
+    "res": "Bullet_Impact_Metal_Shield3.mp3",
+    "volume": 30
+  },
+  "2018": {
+    "res": "Bullet_Impact_Metal_Shield4.mp3",
+    "volume": 30
+  },
+  "2019": {
+    "res": "Bullet_Impact_Metal_Shield5.mp3",
+    "volume": 30
+  },
+  "2020": {
+    "res": "Bgm2.mp3",
+    "volume": 100
+  },
+  "2021": {
+    "res": "Attack1.mp3",
+    "volume": 80
+  },
+  "2022": {
+    "res": "EquipUp.mp3",
+    "volume": 50
+  }
+}

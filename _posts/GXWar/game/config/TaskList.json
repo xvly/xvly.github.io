@@ -1,0 +1,364 @@
+{
+  "1": {
+    "name": "通关副本",
+    "desc": "通关关卡1-10",
+    "type": 1,
+    "sort": 1,
+    "subType": 1,
+    "stageLevel": 1,
+    "count": 10,
+    "reset": false,
+    "prestige": 20
+  },
+  "2": {
+    "name": "完成战斗",
+    "desc": "完成2局战斗",
+    "type": 1,
+    "sort": 1,
+    "subType": 4,
+    "count": 2,
+    "reset": false,
+    "prestige": 30
+  },
+  "3": {
+    "name": "通关副本",
+    "desc": "通关关卡1-20",
+    "type": 1,
+    "sort": 2,
+    "subType": 1,
+    "stageLevel": 1,
+    "count": 20,
+    "reset": false,
+    "prestige": 30
+  },
+  "4": {
+    "name": "完成战斗",
+    "desc": "完成2局战斗",
+    "type": 1,
+    "sort": 2,
+    "subType": 4,
+    "count": 2,
+    "reset": false,
+    "prestige": 20
+  },
+  "5": {
+    "name": "消灭敌人",
+    "desc": "消灭50个敌人",
+    "type": 1,
+    "sort": 2,
+    "subType": 3,
+    "count": 50,
+    "reset": true,
+    "prestige": 10
+  },
+  "6": {
+    "name": "通关副本",
+    "desc": "通关关卡1-25",
+    "type": 1,
+    "sort": 3,
+    "subType": 1,
+    "stageLevel": 1,
+    "count": 25,
+    "reset": false,
+    "prestige": 30
+  },
+  "7": {
+    "name": "消灭敌人",
+    "desc": "消灭100个敌人",
+    "type": 1,
+    "sort": 3,
+    "subType": 3,
+    "count": 100,
+    "reset": false,
+    "prestige": 20
+  },
+  "8": {
+    "name": "完成战斗",
+    "desc": "完成2局战斗",
+    "type": 1,
+    "sort": 3,
+    "subType": 4,
+    "count": 2,
+    "reset": true,
+    "prestige": 30
+  },
+  "9": {
+    "name": "通关副本",
+    "desc": "通关关卡1-30",
+    "type": 1,
+    "sort": 4,
+    "subType": 1,
+    "stageLevel": 1,
+    "count": 30,
+    "reset": false,
+    "prestige": 30
+  },
+  "10": {
+    "name": "完成战斗",
+    "desc": "完成2局战斗",
+    "type": 1,
+    "sort": 4,
+    "subType": 4,
+    "count": 2,
+    "reset": true,
+    "prestige": 30
+  },
+  "11": {
+    "name": "消灭敌人",
+    "desc": "消灭150个敌人",
+    "type": 1,
+    "sort": 4,
+    "subType": 3,
+    "count": 150,
+    "reset": true,
+    "prestige": 20
+  },
+  "12": {
+    "name": "通关副本",
+    "desc": "通关关卡2-10",
+    "type": 1,
+    "sort": 5,
+    "subType": 1,
+    "stageLevel": 2,
+    "count": 10,
+    "reset": false,
+    "prestige": 20
+  },
+  "13": {
+    "name": "通关副本",
+    "desc": "通关关卡2-20",
+    "type": 1,
+    "sort": 5,
+    "subType": 1,
+    "stageLevel": 2,
+    "count": 20,
+    "reset": false,
+    "prestige": 30
+  },
+  "14": {
+    "name": "消灭敌人",
+    "desc": "消灭150个敌人",
+    "type": 1,
+    "sort": 5,
+    "subType": 3,
+    "count": 150,
+    "reset": true,
+    "prestige": 30
+  },
+  "15": {
+    "name": "完成战斗",
+    "desc": "完成3局战斗",
+    "type": 1,
+    "sort": 5,
+    "subType": 4,
+    "count": 3,
+    "reset": true,
+    "prestige": 20
+  },
+  "16": {
+    "name": "通关副本",
+    "desc": "通关关卡2-30",
+    "type": 1,
+    "sort": 6,
+    "subType": 1,
+    "stageLevel": 2,
+    "count": 30,
+    "reset": false,
+    "prestige": 20
+  },
+  "17": {
+    "name": "通关副本",
+    "desc": "通关关卡2-40",
+    "type": 1,
+    "sort": 6,
+    "subType": 1,
+    "stageLevel": 2,
+    "count": 40,
+    "reset": false,
+    "prestige": 30
+  },
+  "18": {
+    "name": "完成战斗",
+    "desc": "完成3局战斗",
+    "type": 1,
+    "sort": 6,
+    "subType": 4,
+    "count": 3,
+    "reset": true,
+    "prestige": 30
+  },
+  "19": {
+    "name": "消灭敌人",
+    "desc": "消灭200个敌人",
+    "type": 1,
+    "sort": 6,
+    "subType": 3,
+    "count": 200,
+    "reset": true,
+    "prestige": 20
+  },
+  "20": {
+    "name": "通关副本",
+    "desc": "通关关卡2-50",
+    "type": 1,
+    "sort": 7,
+    "subType": 1,
+    "stageLevel": 2,
+    "count": 50,
+    "reset": false,
+    "prestige": 40
+  },
+  "21": {
+    "name": "消灭敌人",
+    "desc": "消灭200个敌人",
+    "type": 1,
+    "sort": 7,
+    "subType": 3,
+    "count": 200,
+    "reset": true,
+    "prestige": 30
+  },
+  "22": {
+    "name": "完成战斗",
+    "desc": "完成3局战斗",
+    "type": 1,
+    "sort": 7,
+    "subType": 3,
+    "count": 3,
+    "reset": true,
+    "prestige": 30
+  },
+  "23": {
+    "name": "通关副本",
+    "desc": "通关关卡3-10",
+    "type": 1,
+    "sort": 8,
+    "subType": 1,
+    "stageLevel": 3,
+    "count": 10,
+    "reset": false,
+    "prestige": 20
+  },
+  "24": {
+    "name": "通关副本",
+    "desc": "通关关卡3-20",
+    "type": 1,
+    "sort": 8,
+    "subType": 1,
+    "stageLevel": 3,
+    "count": 20,
+    "reset": false,
+    "prestige": 30
+  },
+  "25": {
+    "name": "完成战斗",
+    "desc": "完成3局战斗",
+    "type": 1,
+    "sort": 8,
+    "subType": 3,
+    "count": 3,
+    "reset": true,
+    "prestige": 30
+  },
+  "26": {
+    "name": "消灭敌人",
+    "desc": "消灭300个敌人",
+    "type": 1,
+    "sort": 8,
+    "subType": 3,
+    "count": 300,
+    "reset": true,
+    "prestige": 20
+  },
+  "27": {
+    "name": "通关副本",
+    "desc": "通关关卡3-30",
+    "type": 1,
+    "sort": 9,
+    "subType": 1,
+    "stageLevel": 3,
+    "count": 30,
+    "reset": false,
+    "prestige": 20
+  },
+  "28": {
+    "name": "通关副本",
+    "desc": "通关关卡3-40",
+    "type": 1,
+    "sort": 9,
+    "subType": 1,
+    "stageLevel": 3,
+    "count": 40,
+    "reset": false,
+    "prestige": 30
+  },
+  "29": {
+    "name": "消灭敌人",
+    "desc": "消灭300个敌人",
+    "type": 1,
+    "sort": 9,
+    "subType": 3,
+    "count": 300,
+    "reset": true,
+    "prestige": 30
+  },
+  "30": {
+    "name": "完成战斗",
+    "desc": "完成3局战斗",
+    "type": 1,
+    "sort": 9,
+    "subType": 4,
+    "count": 3,
+    "reset": true,
+    "prestige": 20
+  },
+  "31": {
+    "name": "通关副本",
+    "desc": "通关关卡3-50",
+    "type": 1,
+    "sort": 10,
+    "subType": 1,
+    "stageLevel": 3,
+    "count": 50,
+    "reset": false,
+    "prestige": 40
+  },
+  "32": {
+    "name": "完成战斗",
+    "desc": "完成3局战斗",
+    "type": 1,
+    "sort": 10,
+    "subType": 4,
+    "count": 3,
+    "reset": true,
+    "prestige": 30
+  },
+  "33": {
+    "name": "消灭敌人",
+    "desc": "消灭300个敌人",
+    "type": 1,
+    "sort": 10,
+    "subType": 3,
+    "count": 300,
+    "reset": true,
+    "prestige": 30
+  },
+  "1001": {
+    "name": "消灭敌人",
+    "desc": "消灭150个敌人",
+    "type": 2,
+    "subType": 3,
+    "count": 150,
+    "reset": true,
+    "prestige": 10
+  },
+  "1002": {
+    "name": "完成战斗",
+    "desc": "完成2次战斗",
+    "type": 2,
+    "subType": 4,
+    "count": 2,
+    "reset": true,
+    "prestige": 10
+  }
+}

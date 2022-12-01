@@ -1,0 +1,114 @@
+{
+  "1": {
+    "fileName": "effect_boom_fenlie",
+    "lPerfFileName": "effect_boom_fenlie_low"
+  },
+  "2": {
+    "fileName": "Boss_002_feidan_paohuo",
+    "lPerfFileName": "Boss_002_feidan_paohuo_low"
+  },
+  "3": {
+    "fileName": "Boss_002_jiguang_xuli",
+    "lPerfFileName": "Boss_002_jiguang_xuli_low"
+  },
+  "4": {
+    "fileName": "Boss_002_zidan_001",
+    "lPerfFileName": "Boss_002_zidan_001_low"
+  },
+  "5": {
+    "fileName": "Boss_002_zidan_002",
+    "lPerfFileName": "Boss_002_zidan_002_low"
+  },
+  "6": {
+    "fileName": "boss_003_zidan_01",
+    "lPerfFileName": "boss_003_zidan_01_low"
+  },
+  "7": {
+    "fileName": "buff_jiansu",
+    "lPerfFileName": "buff_jiansu_low"
+  },
+  "8": {
+    "fileName": "buff_zhuoshao",
+    "lPerfFileName": "buff_zhuoshao_low"
+  },
+  "9": {
+    "fileName": "effect_boom_001",
+    "lPerfFileName": "effect_boom_001_low"
+  },
+  "10": {
+    "fileName": "effect_boom_002",
+    "lPerfFileName": "effect_boom_002_low"
+  },
+  "11": {
+    "fileName": "effect_boom_fenlie",
+    "lPerfFileName": "effect_boom_fenlie_low"
+  },
+  "12": {
+    "fileName": "effect_boom",
+    "lPerfFileName": "effect_boom_low"
+  },
+  "13": {
+    "fileName": "effect_tongyong_huixue",
+    "lPerfFileName": "effect_tongyong_huixue_low"
+  },
+  "14": {
+    "fileName": "effect_tongyong_shouji2",
+    "lPerfFileName": "effect_tongyong_shouji2_low"
+  },
+  "15": {
+    "fileName": "guangdan_xuli",
+    "lPerfFileName": "guangdan_xuli_low"
+  },
+  "16": {
+    "fileName": "moster_dundi_001",
+    "lPerfFileName": "moster_dundi_001_low"
+  },
+  "17": {
+    "fileName": "moster_miss_yan_001",
+    "lPerfFileName": "moster_miss_yan_001_low"
+  },
+  "18": {
+    "fileName": "moster_penghuo_001",
+    "lPerfFileName": "moster_penghuo_001_low"
+  },
+  "19": {
+    "fileName": "moster_shandian_001",
+    "lPerfFileName": "moster_shandian_001_low"
+  },
+  "20": {
+    "fileName": "moster_yanjiang_001",
+    "lPerfFileName": "moster_yanjiang_001_low"
+  },
+  "21": {
+    "fileName": "moster_yanjiang_boom",
+    "lPerfFileName": "moster_yanjiang_boom_low"
+  },
+  "22": {
+    "fileName": "moster_zidan_009",
+    "lPerfFileName": "moster_zidan_009_low"
+  },
+  "23": {
+    "fileName": "moster_zidan_010",
+    "lPerfFileName": "moster_zidan_010_low"
+  },
+  "24": {
+    "fileName": "moster_zidan_011",
+    "lPerfFileName": "moster_zidan_011_low"
+  },
+  "25": {
+    "fileName": "paohuo_guang_001",
+    "lPerfFileName": "paohuo_guang_001_low"
+  },
+  "26": {
+    "fileName": "yujingkuang_003",
+    "lPerfFileName": "yujingkuang_003_low"
+  },
+  "27": {
+    "fileName": "yujingkuang_004",
+    "lPerfFileName": "yujingkuang_004_low"
+  },
+  "28": {
+    "fileName": "zidan_001",
+    "lPerfFileName": "zidan_001_low"
+  }
+}

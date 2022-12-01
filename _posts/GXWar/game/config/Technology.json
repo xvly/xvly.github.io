@@ -1,0 +1,73 @@
+{
+  "1": {
+    "name": "生命",
+    "icon": "science_icon_shengming",
+    "limit": 30,
+    "value": 100,
+    "var": "hp",
+    "desc": "生命上限+"
+  },
+  "2": {
+    "name": "攻击",
+    "icon": "science_icon_huoli",
+    "limit": 30,
+    "value": 20,
+    "var": "atk",
+    "desc": "攻击力+"
+  },
+  "3": {
+    "name": "恢复",
+    "icon": "science_icon_huifu",
+    "limit": 30,
+    "value": 50,
+    "var": "recoverHP",
+    "desc": "血瓶恢复量+"
+  },
+  "4": {
+    "name": "护甲",
+    "icon": "science_icon_zhuangjia",
+    "limit": 30,
+    "value": 10,
+    "var": "armoured",
+    "desc": "碰撞伤害减免+"
+  },
+  "5": {
+    "name": "攻速",
+    "icon": "science_icon_gongsu",
+    "limit": 30,
+    "value": 1,
+    "var": "atkSpd",
+    "desc": "攻击速度+"
+  },
+  "6": {
+    "name": "鼓舞",
+    "icon": "science_icon_guwu",
+    "limit": 30,
+    "value": 50,
+    "var": "inspire",
+    "desc": "升级回复血量+"
+  },
+  "7": {
+    "name": "护盾",
+    "icon": "science_icon_fanghu",
+    "limit": 30,
+    "value": 10,
+    "var": "protection",
+    "desc": "子弹伤害减免+"
+  },
+  "8": {
+    "name": "时间收益",
+    "icon": "science_icon_shijianshouyi",
+    "limit": 10,
+    "value": 2,
+    "var": "timeEarnings",
+    "desc": "每分钟金币收益+"
+  },
+  "9": {
+    "name": "荣耀",
+    "icon": "science_icon_rongyao",
+    "limit": 1,
+    "var": "honour",
+    "desc": "初始获得1次技能选择机会"
+  }
+}

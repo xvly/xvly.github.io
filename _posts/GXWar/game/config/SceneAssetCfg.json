@@ -1,0 +1,101 @@
+{
+  "1": {
+    "name": "1_area",
+    "type": 1
+  },
+  "2": {
+    "name": "1_stone1",
+    "type": 2
+  },
+  "3": {
+    "name": "1_stone2",
+    "type": 2
+  },
+  "4": {
+    "name": "1_ci",
+    "type": 4
+  },
+  "5": {
+    "name": "1_water0",
+    "type": 3
+  },
+  "6": {
+    "name": "1_water1",
+    "type": 3
+  },
+  "7": {
+    "name": "1_water2",
+    "type": 3
+  },
+  "8": {
+    "name": "1_water3",
+    "type": 3
+  },
+  "9": {
+    "name": "1_water4",
+    "type": 3
+  },
+  "10": {
+    "name": "1_water5",
+    "type": 3
+  },
+  "11": {
+    "name": "1_water6",
+    "type": 3
+  },
+  "12": {
+    "name": "1_water7",
+    "type": 3
+  },
+  "13": {
+    "name": "1_water8",
+    "type": 3
+  },
+  "14": {
+    "name": "1_water9",
+    "type": 3
+  },
+  "15": {
+    "name": "1_water10",
+    "type": 3
+  },
+  "16": {
+    "name": "1_tree1"
+  },
+  "17": {
+    "name": "1_tree2"
+  },
+  "18": {
+    "name": "1_up"
+  },
+  "19": {
+    "name": "1_down"
+  },
+  "20": {
+    "name": "1_left"
+  },
+  "21": {
+    "name": "1_right"
+  },
+  "22": {
+    "name": "1_doorOpen"
+  },
+  "23": {
+    "name": "1_doorClose"
+  },
+  "24": {
+    "name": "1_boss"
+  },
+  "25": {
+    "name": "1_level"
+  },
+  "26": {
+    "name": "1_text1"
+  },
+  "27": {
+    "name": "1_text2"
+  },
+  "28": {
+    "name": "1_text3"
+  }
+}
